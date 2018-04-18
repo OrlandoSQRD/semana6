@@ -1,0 +1,134 @@
+
+.topnav {
+    background-color: #0099cc;
+    background-position: center;
+    overflow: hidden;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav a {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #004d66;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+
+  }
+
+  @media screen and (max-width: 250px) {
+  .topnav a:not(:first-child) {display: none;}
+}
+
+nav{
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img { 
+  width: 100%; 
+  height: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff2e6;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #004d66;
+   color: white;
+   text-align: center;
+   padding: 3%
+}
+
+h1 { 
+  font-weight: bold;
+  text-align: center;
+}
+
+.articulo1 {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #ffe6cc;
+    padding: 40px;
+    width: 60%;
+    height: 15%;
+}
+
+.articulo2 {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #ffe6cc;
+    padding: 40px;
+    width: 60%;
+    height: 15%;
+}
+
+.articulo3 {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #ffe6cc;
+    padding: 40px;
+    width: 60%;
+    height: 20%;
+}
+
+  @media screen and (min-width: 250px) {
+    .articulo1, .articulo2, .articulo3 {
+    font-size: 1.25em;
+   }
+  }
+
+  @media screen and (max-width: 800px) {
+    .articulo1, .articulo2, .articulo3 {
+    font-size: 1em;
+   }
+  }
+}
+
+.imagenplaya-container{
+ width: 60%;
+  max-width:400px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background: #DDD;
+  position: relative;
+}
+
+.imagenlogo {
+  position: absolute;
+  bottom: auto;
+  right: auto;
+
+  
+}
+
+.imagenplaya { 
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
